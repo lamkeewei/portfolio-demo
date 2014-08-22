@@ -1,0 +1,13 @@
+td {
+  border: solid 1px gainsboro;
+  height: 7.5px;
+}
+
+th {
+  min-width: 120px;
+}
+
+th:first-child {
+  min-width: 50px;  
+  font-size: 12px;
+}
