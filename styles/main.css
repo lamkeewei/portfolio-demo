@@ -1,13 +1,167 @@
-td {
-  border: solid 1px gainsboro;
-  height: 7.5px;
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
-th {
-  min-width: 120px;
+#header-banner {
+  padding: 15px;
+  height: 65vh;
+  background-color: #4d73ff;
+  background-image: linear-gradient(to bottom,#3b50ce 0,#6889ff 100%);
+  color: white;
 }
 
-th:first-child {
-  min-width: 50px;  
-  font-size: 12px;
+#header-banner h1 {
+  font-size: 4.5em;
+  width: 100%;
+  text-align: center;
+  margin-top: 20vh;
+  margin-bottom: 0px;
+}
+
+#header-banner p {
+  opacity: 0.7;
+  font-size: 1.2em;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-weight: 100;
+}
+
+#qualities {
+  background-color: rgba(0,0,0,0.025);
+  text-align: center;
+  padding: 35px 0px;
+  border-bottom: solid 1px rgba(0,0,0,0.05);
+  border-top: solid 1px rgba(0,0,0,0.05);
+}
+
+#qualities ol {
+  list-style: none;
+  padding-left: 0px;
+  clear: both;
+  margin-top: 0px;  
+}
+
+#qualities ol li {
+  box-sizing: border-box;
+  width: 33.33333333%;
+  float: left;
+  padding: 15px;
+}
+
+#qualities ol li .quality {
+  background-color: white;
+  padding: 50px 15px;  
+}
+
+#qualities ol li .quality p {
+  color: rgba(0,0,0,0.7);
+  font-weight: 300;
+  padding: 0px 25px;
+}
+
+#skills {
+  padding: 25px 0px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#skills h2 {
+  font-weight: 100;
+  font-size: 2em;
+  color: rgba(0,0,0,0.6);  
+}
+
+#skills table {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+}
+
+#skills tbody td {
+  padding: 10px;
+}
+
+#skills tbody td .shade{
+  background-color: #26c6da;
+  height: 25px;
+  border-radius: 3px;
+}
+
+#skills tbody td:first-child {
+  text-align: right;
+  background-color: transparent;
+  color: rgba(0,0,0,0.8);
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+#footer {
+  background-color: #2a36b1;
+  padding: 50px 25px 100px 25px;
+  text-align: center;
+}
+
+#footer h2 {
+  font-weight: 100;
+  font-size: 2em;
+  color: rgba(255,255,255,0.7); 
+}
+
+#footer form input[type="email"]{
+  background-color: rgba(255,255,255,0.3);
+  border: none;
+  height: 30px;
+  width: 350px;
+  color: white;
+  padding: 0px 7.5px;
+  font-size: 0.9em;
+}
+
+#footer form input:active,
+#footer form input:focus {
+  outline: none;
+}
+
+#footer form input[type="submit"] {
+  height: 30px;
+  width: 100px;
+  background-color: #d0d9ff;
+  border: none;
+  color: #2a36b1;
+  font-weight: 300;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+#footer form input[type="submit"]:hover {
+  background-color: #e7e9fd;
+}
+
+::-webkit-input-placeholder {
+   color: rbga(255,255,255,255,.2);
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: rbga(255,255,255,255,.2);
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: rbga(255,255,255,255,.2);
+}
+
+:-ms-input-placeholder {  
+   color: rbga(255,255,255,255,.2);
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
 }
