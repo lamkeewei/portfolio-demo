@@ -28,6 +28,21 @@ body {
   font-weight: 100;
 }
 
+@media (max-width: 768px) {
+  #header-banner {
+    height: 300px;
+  }
+
+  #header-banner h1 {
+    margin-top: 115px;
+    font-size: 2.8em;
+  }
+
+  #header-banner p {
+    font-size: 1.1em;
+  }
+}
+
 #qualities {
   background-color: rgba(0,0,0,0.1);
   text-align: center;
@@ -88,6 +103,33 @@ body {
   padding: 0px 25px;
 }
 
+@media (max-width: 768px) {
+  #qualities ol li .quality .circle {
+    border-radius: 37.5px;
+    width: 75px;
+    height: 75px;
+  }
+
+  #qualities ol li .quality .circle h3 {
+    font-size: 1.5em
+
+  }
+
+  #qualities ol li {
+    width: 100%;
+    float: none;
+    margin-bottom: 25px;
+  }
+
+  #qualities ol li .quality h3 {
+    font-size: 1.em;
+  }
+
+  #qualities ol li .quality p {
+    font-size: 0.9em;
+  }
+}
+
 #skills {
   padding: 7vh 0px;
   text-align: center;
@@ -118,6 +160,10 @@ body {
   border-radius: 3px;
 }
 
+#skills tbody td span {
+  display: none;
+}
+
 #skills tbody td .shade:hover {
   background-color: #4fc3f7;
 }
@@ -128,6 +174,28 @@ body {
   color: rgba(0,0,0,0.8);
   text-transform: uppercase;
   font-size: 0.8em;
+}
+
+@media(max-width: 768px) {
+  #skills table {
+    width: 80%;
+  }
+
+  #skills tbody td:first-child {
+    display: none;
+  }
+
+  #skills tbody td {
+    text-align: left;
+  }
+
+  #skills tbody td span{
+    display: inline;
+    color: rgba(255,255,255,0.9);
+    font-size: 0.8em;
+    margin-left: 10px;
+    font-weight: 300;
+  }
 }
 
 #footer {
@@ -198,6 +266,23 @@ body {
 
 #footer .social-media li a:hover {
   color: #039be5;
+}
+
+@media(max-width: 768px) {
+  #footer {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #footer form input[type="email"] {
+    width: 70%;
+  } 
+
+  #footer form input[type="submit"] {
+    margin-top: 15px;
+    height: 40px;
+    border-radius: 3px;
+    width: 30%;
+  }
 }
 
 ::-webkit-input-placeholder {
