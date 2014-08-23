@@ -283,6 +283,14 @@ body {
     border-radius: 3px;
     width: 30%;
   }
+  
+  #footer .social-media {
+    width: 50%;
+  }
+
+  #footer .social-media li {
+    font-size: 1.5em;
+  }
 }
 
 ::-webkit-input-placeholder {
