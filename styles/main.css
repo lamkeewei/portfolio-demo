@@ -78,7 +78,7 @@ body {
   margin-right: auto;
   border-radius: 50px;
   box-sizing: border-box;
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(0,0,0,0.3);
   /*border: solid 5px rgba(0,0,0,0.3);*/  
   display: table;
 }
@@ -88,6 +88,7 @@ body {
   font-weight: 100;
   display: table-cell;
   vertical-align: middle;
+  color: white;
 }
 
 #qualities ol li .quality h3 {
