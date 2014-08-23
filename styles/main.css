@@ -231,7 +231,7 @@ body {
 
 #footer form input[type="submit"] {
   width: 100px;
-  background-color: #d0d9ff;
+  background-color: rgba(255,255,255,0.7);
   border: none;
   color: #01579b;
   font-weight: 300;
@@ -240,7 +240,7 @@ body {
 }
 
 #footer form input[type="submit"]:hover {
-  background-color: #e7e9fd;
+  background-color: rgba(255,255,255,0.9);;
 }
 
 #footer .social-media {
